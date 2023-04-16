@@ -1,7 +1,8 @@
 body {background-color:    rgba(82, 78, 78, 0.522);}
 header {
-    background-image: url("pulpspace.jpg");
+    background-image: url("spaceback.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    page-break-after: always;
 }
