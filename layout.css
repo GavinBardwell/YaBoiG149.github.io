@@ -1,12 +1,13 @@
 * {
   padding: 0;
   margin: 0;
-  border:0 solid transparent
+  border: 1px solid green;
+
 
 }
 
 body {
-  background-color:    rgba(82, 78, 78, 0.522);
+  background-color:    rgb(64, 54, 54);
 }
 header {
     background-image: url("spaceback.jpg");
@@ -17,6 +18,24 @@ header {
     height: 100vh;
 }
 
+header h1 {
+  color:whitesmoke; 
+  margin: 10px;
+  padding-top: 75px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  padding: 10px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+p {
+  padding: 20px;
+  padding-top: 0px;
+}
 /* navigation bar */
 
 nav {
@@ -25,6 +44,8 @@ nav {
   background-color: rgb(4, 25, 88);
   border-color: black;
   border-width: 1px;
+  position: fixed;
+  z-index: 100;/*keeps nav bar infront of objects*/
 }
 ul {
   margin-left: 60px;
@@ -52,21 +73,33 @@ ul li a:hover {
 /* navigation bar */
 
 .Jobs{
-  height: 20vh;
+  height: fit-content;
+  border-radius: 25px;
+  background-color:  rgb(79, 89, 166);
+  margin: 20px;
+  text-align: center;
+}
+
+.Specific {
+
 }
 
 .About{
-  height:20vh;
+  height:25vh;
+  border-radius: 25px;
+  background-color:  rgb(79, 89, 166);
+  margin: 20px;
+  text-align: center;
 }
 
 .Interests {
-  height:20vh;
+  height:25vh;
 }
 
 .Skills {
-  height: 20vh;
+  height: 25vh;
 }
 
 footer {
-  height: 10vh;
+  height: 20vh;
 }
