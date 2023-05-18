@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 
 
 }
@@ -32,10 +32,7 @@ h2 {
   text-align: left;
 }
 
-p {
-  padding: 20px;
-  padding-top: 0px;
-}
+
 /* navigation bar */
 
 nav {
@@ -43,9 +40,11 @@ nav {
   height: 40px;
   background-color: rgb(4, 25, 88);
   border-color: black;
-  border-width: 1px;
+  border-width: 0px;
   position: fixed;
+  top: 0;
   z-index: 100;/*keeps nav bar infront of objects*/
+  padding: 0px;
 }
 ul {
   margin-left: 60px;
@@ -65,6 +64,7 @@ ul li a {
   font-family: arial;
   color:rgb(255, 255, 255);
   padding: 14px;
+  padding-top: 0px;
 }
 
 ul li a:hover {
@@ -77,11 +77,19 @@ ul li a:hover {
   border-radius: 25px;
   background-color:  rgb(79, 89, 166);
   margin: 20px;
-  text-align: center;
 }
 
 .Specific {
+  padding: 10px;
+  margin: 50px;
+  margin-top: 0;
+  display: inline-block;
+  width: 90%;
+}
 
+.Specific h3 {
+  display: inline;
+  text-align: right;
 }
 
 .About{
@@ -90,6 +98,11 @@ ul li a:hover {
   background-color:  rgb(79, 89, 166);
   margin: 20px;
   text-align: center;
+}
+
+.About p{
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .Interests {
