@@ -79,6 +79,7 @@ ul li a:hover {
   margin: 20px;
   text-align: center;
   padding-bottom: 20px;
+  width: 97.5%;
 }
 
 .About p{
@@ -92,6 +93,7 @@ ul li a:hover {
   background-color:  rgb(79, 89, 166);
   margin: 20px;
   padding-bottom: 20px;
+  width: 97.5%;
 }
 
 .Specific {
@@ -115,12 +117,21 @@ ul li a:hover {
   background-color:  rgb(79, 89, 166);
   margin: 20px;
   padding-bottom: 20px;
+  display: inline-block;
+  width: 97.5%;
 }
 
+.Skills img {
+  height: 9%;
+  width: 9%;
+  padding: 2%;
+}
 .Interests {
   height:25vh;
+  width: 97.5%;
 }
 
 footer {
   height: 20vh;
+  width: 97.5%;
 }
