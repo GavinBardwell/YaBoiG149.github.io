@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 
 
 }
@@ -73,7 +73,7 @@ ul li a:hover {
 /* navigation bar */
 
 .About{
-  height:25vh;
+  height:fit-content;
   border-radius: 25px;
   background-color:  rgb(79, 89, 166);
   margin: 20px;
@@ -122,16 +122,43 @@ ul li a:hover {
 }
 
 .Skills img {
-  height: 9%;
-  width: 9%;
-  padding: 2%;
+  height: 125px;
+  width:125px;
+  padding: 25px;
+}
+
+.Skills figure {
+  display: inline-block;
+}
+
+.Skills figcaption {
+  height: fit-content;
+  width: 125px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
 }
 .Interests {
   height:25vh;
   width: 97.5%;
+  border-radius: 25px;
+  background-color:  rgb(79, 89, 166);
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.Interests p{
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 footer {
   height: 20vh;
-  width: 97.5%;
+  width: 100%;
+  background-color: rgba(171, 150, 150, 0.564);
+}
+
+footer h3 {
+  margin-left: 60px;
+  margin-right: 60px;
 }
