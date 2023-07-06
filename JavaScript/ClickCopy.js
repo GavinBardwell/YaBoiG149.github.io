@@ -31,4 +31,3 @@ document.getElementById("copyEmailPic").addEventListener("click", function() {
   copyToClipboard(textToCopy);
   alert('Copied email: gmbwe110@gmail.com');
 });
-
