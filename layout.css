@@ -63,7 +63,7 @@ ul li {
   display: inline-block;
   line-height: 40px;
 }
-/*anchor*/
+
 ul li a {
   /*border-color: black;
   border-width: 1px;*/
@@ -75,6 +75,12 @@ ul li a {
   padding-top: 0px;
 }
 
+.anchor {/*anchor to ensure that the hyper link always pops up properly*/
+  display: block;
+  position: relative;
+  top: -10vh;
+  visibility: hidden;
+}
 ul li a:hover {
   color: red;
 }
@@ -94,6 +100,7 @@ ul li a:hover {
   margin-left: 50px;
   margin-right: 50px;
 }
+
 
 .Jobs{
   height: fit-content;
