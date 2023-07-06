@@ -84,7 +84,7 @@ header h2 button {
   color: white;
   margin: 0px;
 }
-header button:hover {
+header h2 button:hover h2 i{
   color: red;
 }
 
